@@ -11,7 +11,7 @@ function ImageSlider() {
   ];
   return (
     <div>
-      <div className="ml-16 md:ml-0 md:w-full">
+      <div className=" w-[550px] md:w-full">
         <Carausal autoSlide={true}>
           {slides?.map((s, index) => (
             <img key={index} src={s} alt="" />
