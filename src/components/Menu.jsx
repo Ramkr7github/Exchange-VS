@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 
 const Menu = () => {
   return (
-    <div className="menu-wrapper fixed bottom-0 h-[100px] w-[550px] sm:w-full lg:w-[700px] sm:ml-[26%]  rounded-t-3xl mt-[125px] sm:mt-0 bg-slate-400 z-10">
-      <div className="menu gap-[30px] sm:gap-[50px] fixed bottom-0 py-2 h-[100px] flex justify-center items-center w-auto ml-24">
+    <div className="menu-wrapper fixed bottom-0 h-[100px] w-[550px] xs:w-full lg:w-[700px] sm:ml-[26%]  rounded-t-3xl mt-[125px] sm:mt-0 bg-slate-400 z-10">
+      <div className="menu gap-[30px] sm:gap-[50px] fixed bottom-0 py-2 h-[100px] flex justify-center items-center w-auto ml-16 md:ml-24">
         <div className="">
           <Link to="/" className="flex flex-col justify-center items-center hover:cursor-pointer  ease-in-out duration-300"><AiFillHome className="text-[30px] text-white transform transition-all hover:scale-150" />
           <h3 className="pt-1 hover:text-white ease-in-out duration-300">HOME</h3></Link>
