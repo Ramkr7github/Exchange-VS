@@ -1,8 +1,5 @@
 import arrow from "../assets/arrow.svg"
 
-
-
-
 export const exchanges = [
     //SKY VERSION
   
