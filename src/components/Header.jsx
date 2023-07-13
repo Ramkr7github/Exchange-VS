@@ -5,7 +5,7 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 function Header() {
   return (
     <div>
-      <div className=" bg-black w-full md:w-full ">
+      <div className=" bg-black w-[550px] md:w-full ">
         <nav className="flex flex-row justify-between items-center md:justify-between gap-4 ss:gap-[200px] sm:gap-[320px] md:gap-[400px] lg:gap-[500px] py-8 w-full">
           <div className="">
             <a href="/">
